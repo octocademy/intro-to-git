@@ -1,0 +1,16 @@
+name: Greetings
+
+on: [pull_request_target, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: "Hey! 🙌🏽 Thanks for submitting an issue! We'll be sure to take a look at it as soon as possible."
+        pr-message: "You just submitted your first PR! 💃🏽 Wooo!! I hope you're feeling VERY proud! I hope you feel more confident using git!"
