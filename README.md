@@ -2,6 +2,7 @@
 repository to practice git commits and working with git in the terminal 
 
 # Resources:
+Learn how to use Git and GitHub with these two resources: 
 - [GitHub Skills site](https://skills.github.com/)
 - [Git cheatsheet](https://training.github.com/downloads/github-git-cheat-sheet.pdf)
 
